@@ -23,11 +23,12 @@ int main() {
     else if(units >=31 && units <=60){
         billAmount=units * 25;
     }
-    else if(units >=61){
+    else {
         billAmount=units * 30;
     }
     //displaying the bill amount
     printf("Your water bill is: %.2f KES\n", billAmount);
 
     return 0;
+
 }
