@@ -1,7 +1,7 @@
 /*
 Name: Bikeri Kevin
 RegNo: PA106/G/28822/25
-Description: This program calculates the electric bill based on the number of units consumed.
+Description: This program calculates the user's fare based on the distance in kilometers travelled.
 Date: 21st October, 2024
 */
  #include <stdio.h>
@@ -21,4 +21,5 @@ float calculateFare(float x){
     float fare;
     fare=x * 100;
     return fare;
+
 }
